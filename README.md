@@ -15,7 +15,7 @@ cd ../
 foreman start -f Procfile.dev
 ```
 
-安装完成后打开 [http://localhost:4000/](http://localhost:4000/) 访问系统，系统的前端可以单独访问[http://localhost:5000/](http://localhost:5000/) 
+安装完成后打开 [http://localhost:4000/](http://localhost:4000/) 访问系统，系统的前端可以单独访问 [http://localhost:5000/](http://localhost:5000/) 。
 
 ## 所用技术
 
