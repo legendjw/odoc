@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+# This model initially had no columns defined. If you add columns to the
+# model remove the '{}' from the fixture names and add the columns immediately
+# below each fixture, per the syntax in the comments below
+#
+<% cost = ActiveModel::SecurePassword.min_cost ? BCrypt::Engine::MIN_COST : BCrypt::Engine.cost %>
+user1: 
+  name: user1
+  email: user1@duixiangyun.com
+  mobile: 11111111111
+  password_digest: <%= BCrypt::Password.create('user1user1', cost: cost) %>
+  
+user2: 
+  name: user2
+  email: user2@duixiangyun.com
+  mobile: 11111111112
+  password_digest: <%= BCrypt::Password.create('user2user2', cost: cost) %>
+

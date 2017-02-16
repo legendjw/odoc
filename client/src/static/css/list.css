@@ -1,0 +1,45 @@
+body.list {overflow: scroll;}
+
+#list-root {height: 100%}
+
+body.list .ui.fluid.container {height: 100%;padding-top: 10px;}
+
+#table-container {
+  margin: 10px;
+}
+
+#operations-container {
+  margin: 0 10px;
+  height: 30px;
+  line-height: 30px;
+}
+
+#operations-buttons-container {
+  float: left;
+}
+
+#operations-labels-container {
+  float: right;
+  margin-right: 10px;
+}
+
+#operations-search-container {
+  float: right;
+}
+
+body.list .ui.table thead th {
+  padding: .78571429em;
+}
+
+body.list .ui.modal > .header {
+  padding: 1rem 1.5rem;
+}
+
+body.list .ui.small.modal > .header:not(.ui),.ui.modal > .header:not(.ui) {
+  font-size: 1rem;
+}
+
+body.list .ui.modal > .actions {
+  padding: 0.5rem 1rem;
+}
+

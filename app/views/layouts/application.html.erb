@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Odocs</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body id="<%= content_for?(:body_id) ? yield(:body_id) : "#{controller_name}-#{action_name}" %>" class="<%= "#{controller_name}-#{action_name}" %> <%= yield :body_class %>">
+    <div id="root"></div>
+
+    <%= yield %>
+
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'http://localhost:5000/static/js/bundle.js' %>
+  </body>
+</html>

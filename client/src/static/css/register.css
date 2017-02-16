@@ -1,0 +1,18 @@
+
+body.users-signup {
+  background-color: #f3f3f3;
+}
+body.users-signup #root {
+  height: 100%;
+}
+body.users-signup .register.grid {
+  height: 100%;
+}
+/**
+.image {
+  margin-top: -100px;
+}
+**/
+.register > .column {
+  max-width: 450px;
+}
